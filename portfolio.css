@@ -1,0 +1,39 @@
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+nav li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: right;
+}
+
+nav .active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Change the link color on hover */
+nav li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+aside {
+    flex: 1;
+}
+article {
+    margin-left: 10px;
+    flex: 4;
+}
+
